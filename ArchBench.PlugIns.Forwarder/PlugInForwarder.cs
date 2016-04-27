@@ -12,14 +12,14 @@ namespace ArchBench.PlugIns.Forwarder
 {
     public class PlugInForwarder : IArchServerModulePlugIn
     {
-        private Dictionary<string,string> mServers = new Dictionary<string, string>();
+        private readonly Dictionary<string,string> mServers = new Dictionary<string, string>();
 
         public PlugInForwarder()
         {
             AddServer( "sidoc", "127.0.0.1:8083" );
         }
 
-        private void AddServer( String aName, String aUrl )
+        private void AddServer( string aName, string aUrl )
         {
             if ( mServers.ContainsKey( aName ) )
                 mServers[aName] = aUrl;
@@ -106,25 +106,13 @@ namespace ArchBench.PlugIns.Forwarder
 
         #region IArchServerPlugIn Members
 
-        public string Name
-        {
-            get { return "ArchServer Forwarder Plugin"; }
-        }
+        public string Name => "ArchServer Forwarder Plugin";
 
-        public string Description
-        {
-            get { return "Forward any request to port 8083"; }
-        }
+        public string Description => "Forward any request to port 8083";
 
-        public string Author
-        {
-            get { return "Leonel Nobrega"; }
-        }
+        public string Author => "Leonel Nobrega";
 
-        public string Version
-        {
-            get { return "1.0"; }
-        }
+        public string Version => "1.0";
 
         public IArchServerPlugInHost Host
         {
