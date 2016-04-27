@@ -1,0 +1,17 @@
+<Modules>
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="8EE617A8-43C7-44ED-B52A-DDCCD286A49C" ModuleId="ArchBench.Core" />
+  <Module PersistentId="6E27897A-D0AB-4F1F-92EF-F1079CF0416E" ModuleId="ArchBench.Server" />
+  <Module PersistentId="C58066ED-4912-44AD-9F49-AD098F249BB1" ModuleId="ArchBench.PlugIns.Login" />
+  <Module PersistentId="F89A3D4E-B759-4710-8B1C-DCF6CCED51B4" ModuleId="ArchBench.PlugIns.Hello" />
+  <Module PersistentId="BF96D05C-5574-4258-9CF3-6D9102537795" ModuleId="ArchBench.PlugIns.Dispatcher" />
+  <Module PersistentId="0BFB5753-E3C8-488C-A403-51AA5401F1B0" ModuleId="ArchBench.PlugIns.Amazon" />
+  <Module PersistentId="80A3F30F-4121-4DE4-83DD-6F122FFC5F6E" ModuleId="ArchBench.PlugIns.Broker" />
+  <Module PersistentId="45CE7DED-1BB3-4C10-84DC-92D1A546A1CC" ModuleId="ArchBench.PlugIns.Counter" />
+  <Module PersistentId="0095143F-80D8-4D8C-BE7F-D5EA5756E6B5" ModuleId="ArchBench.PlugIns.Forwarder" />
+  <Module PersistentId="D68276A3-A06A-42B8-8D84-1DF4F39ECFBD" ModuleId="ArchBench.PlugIns.Logger" />
+  <Module PersistentId="9A6EBEF5-64FE-45E1-A9C1-2A5CD66C6577" ModuleId="ArchBench.PlugIns.Logout" />
+  <Module PersistentId="D4525845-3EB9-4907-BBEF-306801EBAA60" ModuleId="ArchBench.PlugIns.Store" />
+  <Module PersistentId="062CCD91-3259-402D-9EDA-A8A6FAF74C21" ModuleId="ArchBench.PlugIns.Events" />
+  <Module PersistentId="DCB6377A-D39A-45B8-B30D-F5EEE0931460" ModuleId="ArchBench.PlugIns.Broker_1" />
+</Modules>

@@ -1,0 +1,23 @@
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Hello\bin\Debug\ArchBench.PlugIns.Hello.dll
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Hello\bin\Debug\ArchBench.PlugIns.Hello.pdb
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Hello\bin\Debug\ArchBench.Core.dll
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Hello\bin\Debug\HttpServer.dll
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Hello\bin\Debug\ArchBench.Core.pdb
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Hello\bin\Debug\HttpServer.xml
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Hello\obj\Debug\ResolveAssemblyReference.cache
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Hello\obj\Debug\ArchBench.PlugIns.Hello.dll
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Hello\obj\Debug\ArchBench.PlugIns.Hello.pdb
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Hello\obj\Debug\Decl\ArchBench.PlugIns.Hello.dll
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Hello\obj\Debug\Decl\ArchBench.PlugIns.Hello.pdb
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Hello.dll
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Hello.pdb
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Hello.dll
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Hello.pdb
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns.Hello\obj\Debug\ArchBench.PlugIns.Hello.csprojResolveAssemblyReference.cache
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns.Hello\obj\Debug\ArchBench.PlugIns.Hello.dll
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns.Hello\obj\Debug\ArchBench.PlugIns.Hello.pdb
+C:\Development\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Hello.dll
+C:\Development\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Hello.pdb
+C:\Development\ArchBench\ArchBench.PlugIns.Hello\obj\Debug\ArchBench.PlugIns.Hello.csprojResolveAssemblyReference.cache
+C:\Development\ArchBench\ArchBench.PlugIns.Hello\obj\Debug\ArchBench.PlugIns.Hello.dll
+C:\Development\ArchBench\ArchBench.PlugIns.Hello\obj\Debug\ArchBench.PlugIns.Hello.pdb

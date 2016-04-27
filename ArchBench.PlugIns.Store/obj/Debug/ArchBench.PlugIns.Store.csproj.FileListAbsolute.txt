@@ -1,0 +1,33 @@
+C:\Archive\Academy\ArchBench\ArchBench.PlugIns.Store\bin\Debug\ArchBench.PlugIns.Store.dll
+C:\Archive\Academy\ArchBench\ArchBench.PlugIns.Store\bin\Debug\ArchBench.PlugIns.Store.pdb
+C:\Archive\Academy\ArchBench\ArchBench.PlugIns.Store\bin\Debug\ArchBench.Core.dll
+C:\Archive\Academy\ArchBench\ArchBench.PlugIns.Store\bin\Debug\HttpServer.dll
+C:\Archive\Academy\ArchBench\ArchBench.PlugIns.Store\bin\Debug\HttpServer.xml
+C:\Archive\Academy\ArchBench\ArchBench.PlugIns.Store\bin\Debug\ArchBench.Core.pdb
+C:\Archive\Academy\ArchBench\ArchBench.PlugIns.Store\obj\Debug\ResolveAssemblyReference.cache
+C:\Archive\Academy\ArchBench\ArchBench.PlugIns.Store\obj\Debug\ArchBench.PlugIns.Store.dll
+C:\Archive\Academy\ArchBench\ArchBench.PlugIns.Store\obj\Debug\ArchBench.PlugIns.Store.pdb
+C:\Archive\Academy\ArchBench\PlugIns\Debug\ArchBench.PlugIns.Store.dll
+C:\Archive\Academy\ArchBench\PlugIns\Debug\ArchBench.PlugIns.Store.pdb
+C:\Archive\Academy\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Store.dll
+C:\Archive\Academy\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Store.pdb
+C:\Archive\Academics\Courses\2009-2010\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Store.dll
+C:\Archive\Academics\Courses\2009-2010\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Store.pdb
+C:\Archive\Academics\Courses\2009-2010\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns.Store\obj\Debug\ResolveAssemblyReference.cache
+C:\Archive\Academics\Courses\2009-2010\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns.Store\obj\Debug\ArchBench.PlugIns.Store.dll
+C:\Archive\Academics\Courses\2009-2010\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns.Store\obj\Debug\ArchBench.PlugIns.Store.pdb
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Store.dll
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Store.pdb
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Store\obj\Debug\ResolveAssemblyReference.cache
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Store\obj\Debug\ArchBench.PlugIns.Store.dll
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Store\obj\Debug\ArchBench.PlugIns.Store.pdb
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Store\obj\Debug\Decl\ArchBench.PlugIns.Store.dll
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Store\obj\Debug\Decl\ArchBench.PlugIns.Store.pdb
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Store.dll
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Store.pdb
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns.Store\obj\Debug\ArchBench.PlugIns.Store.dll
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns.Store\obj\Debug\ArchBench.PlugIns.Store.pdb
+C:\Development\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Store.dll
+C:\Development\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Store.pdb
+C:\Development\ArchBench\ArchBench.PlugIns.Store\obj\Debug\ArchBench.PlugIns.Store.dll
+C:\Development\ArchBench\ArchBench.PlugIns.Store\obj\Debug\ArchBench.PlugIns.Store.pdb

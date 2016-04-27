@@ -1,0 +1,32 @@
+C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.Core\bin\Debug\ArchBench.Core.dll
+C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.Core\bin\Debug\ArchBench.Core.pdb
+C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.Core\bin\Debug\HttpServer.dll
+C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.Core\bin\Debug\HttpServer.xml
+C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.Core\obj\Debug\ArchBench.Core.dll
+C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.Core\obj\Debug\ArchBench.Core.pdb
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Core\bin\Debug\ArchBench.Core.dll
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Core\bin\Debug\ArchBench.Core.pdb
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Core\bin\Debug\HttpServer.dll
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Core\bin\Debug\HttpServer.xml
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Core\obj\Debug\ArchBench.Core.dll
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Core\obj\Debug\ArchBench.Core.pdb
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Core\obj\Debug\Decl\ArchBench.Core.dll
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Core\obj\Debug\Decl\ArchBench.Core.pdb
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Core\bin\Debug\ArchBench.Core.dll
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Core\bin\Debug\ArchBench.Core.pdb
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Core\bin\Debug\HttpServer.dll
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Core\bin\Debug\HttpServer.xml
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Core\obj\Debug\ArchBench.Core.csprojResolveAssemblyReference.cache
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Core\obj\Debug\ArchBench.Core.dll
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Core\obj\Debug\ArchBench.Core.pdb
+C:\Development\ArchBench\ArchBench.Core\bin\Debug\ArchBench.Core.dll
+C:\Development\ArchBench\ArchBench.Core\bin\Debug\ArchBench.Core.pdb
+C:\Development\ArchBench\ArchBench.Core\bin\Debug\HttpServer.dll
+C:\Development\ArchBench\ArchBench.Core\bin\Debug\HttpServer.xml
+C:\Development\ArchBench\ArchBench.Core\obj\Debug\ArchBench.Core.csprojResolveAssemblyReference.cache
+C:\Development\ArchBench\ArchBench.Core\obj\Debug\ArchBench.Core.dll
+C:\Development\ArchBench\ArchBench.Core\obj\Debug\ArchBench.Core.pdb
+C:\Development\ArchBench\ArchBench.Core\bin\Debug\ArchBench.Core.dll.CodeAnalysisLog.xml
+C:\Development\ArchBench\ArchBench.Core\bin\Debug\ArchBench.Core.dll.lastcodeanalysissucceeded

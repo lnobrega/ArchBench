@@ -1,0 +1,190 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="6E27897A-D0AB-4F1F-92EF-F1079CF0416E/f:Program.cs" caret="0" fromTop="0" />
+      <File id="6E27897A-D0AB-4F1F-92EF-F1079CF0416E/f:ModulePlugIns.cs" caret="770" fromTop="22" />
+      <File id="8EE617A8-43C7-44ED-B52A-DDCCD286A49C/f:IArchServerModulePlugIn.cs" caret="117" fromTop="4" />
+      <File id="8EE617A8-43C7-44ED-B52A-DDCCD286A49C/f:IArchServerPlugIn.cs" caret="341" fromTop="13" />
+      <File id="6E27897A-D0AB-4F1F-92EF-F1079CF0416E/f:ModuleHello.cs" caret="1385" fromTop="15" />
+      <File id="8EE617A8-43C7-44ED-B52A-DDCCD286A49C/f:IArchServerPlugInHost.cs" caret="109" fromTop="4" />
+      <File id="F89A3D4E-B759-4710-8B1C-DCF6CCED51B4/f:Hello.cs" caret="1517" fromTop="17" />
+      <File id="F89A3D4E-B759-4710-8B1C-DCF6CCED51B4/f:Dummy.cs" caret="141" fromTop="6" />
+      <File id="6E27897A-D0AB-4F1F-92EF-F1079CF0416E/f:PlugInsManager.cs" caret="2214" fromTop="8" />
+      <File id="F89A3D4E-B759-4710-8B1C-DCF6CCED51B4/f:Goodbye.cs" caret="1363" fromTop="8" />
+      <File id="8EE617A8-43C7-44ED-B52A-DDCCD286A49C/f:IArchServerLogger.cs" caret="321" fromTop="12" />
+      <File id="6E27897A-D0AB-4F1F-92EF-F1079CF0416E/f:TextBoxLogger.cs" caret="1282" fromTop="23" />
+      <File id="6E27897A-D0AB-4F1F-92EF-F1079CF0416E/f:ArchServerForm.cs" caret="2183" fromTop="22" />
+      <File id="45CE7DED-1BB3-4C10-84DC-92D1A546A1CC/f:PlugInCounter.cs" caret="0" fromTop="0" />
+      <File id="D68276A3-A06A-42B8-8D84-1DF4F39ECFBD/f:PlugInLogger.cs" caret="0" fromTop="0" />
+      <File id="d:Miscellaneous Files/f:System.Uri.cs/l:C!?Archive.Academics?Disciplines?Software Architecture?Editions?2011-2012?ArchBench?_ReSharper.ArchBench?DecompilerCache?metadata?System-8d8f?System.Uri.cs" caret="1021" fromTop="0" />
+      <File id="0BFB5753-E3C8-488C-A403-51AA5401F1B0/f:PlubInAmazon.cs" caret="1388" fromTop="33" />
+      <File id="BF96D05C-5574-4258-9CF3-6D9102537795/f:PlugInDispatcher.cs" caret="4544" fromTop="8" />
+      <File id="D4525845-3EB9-4907-BBEF-306801EBAA60/f:PlugInStore.cs" caret="758" fromTop="7" />
+      <File id="0095143F-80D8-4D8C-BE7F-D5EA5756E6B5/f:PlugInForwarder.cs" caret="4800" fromTop="140" />
+      <File id="C58066ED-4912-44AD-9F49-AD098F249BB1/f:PlugInLogin.cs" caret="612" fromTop="17" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:PlugInEvents.cs" caret="289" fromTop="7" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:index.htm" caret="0" fromTop="0" />
+      <File id="80A3F30F-4121-4DE4-83DD-6F122FFC5F6E/f:PlugInBroker.cs" caret="6748" fromTop="33" />
+      <File id="DCB6377A-D39A-45B8-B30D-F5EEE0931460/f:BrokerPlugin.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="C58066ED-4912-44AD-9F49-AD098F249BB1/f:PlugInLogin.cs" caret="2751" fromTop="13" />
+      <File id="C58066ED-4912-44AD-9F49-AD098F249BB1/f:PlugInLogin.cs" caret="1089" fromTop="8" />
+      <File id="C58066ED-4912-44AD-9F49-AD098F249BB1/f:PlugInLogin.cs" caret="1680" fromTop="18" />
+      <File id="C58066ED-4912-44AD-9F49-AD098F249BB1/f:PlugInLogin.cs" caret="1948" fromTop="24" />
+      <File id="BF96D05C-5574-4258-9CF3-6D9102537795/f:PlugInDispatcher.cs" caret="4583" fromTop="12" />
+      <File id="80A3F30F-4121-4DE4-83DD-6F122FFC5F6E/f:PlugInBroker.cs" caret="4582" fromTop="5" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:PlugInEvents.cs" caret="233" fromTop="6" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:PlugInEvents.cs" caret="1394" fromTop="15" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:PlugInEvents.cs" caret="1535" fromTop="20" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:PlugInEvents.cs" caret="0" fromTop="0" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:index.htm" caret="1355" fromTop="25" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:PlugInEvents.cs" caret="1977" fromTop="22" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:PlugInEvents.cs" caret="1227" fromTop="25" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:PlugInEvents.cs" caret="1227" fromTop="24" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:PlugInEvents.cs" caret="1227" fromTop="22" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:PlugInEvents.cs" caret="928" fromTop="23" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:PlugInEvents.cs" caret="526" fromTop="13" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:index.htm" caret="164" fromTop="10" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:index.htm" caret="164" fromTop="8" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:index.htm" caret="0" fromTop="0" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:index.htm" caret="1340" fromTop="23" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:index.htm" caret="659" fromTop="14" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:index.htm" caret="172" fromTop="18" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:index.htm" caret="164" fromTop="18" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:index.htm" caret="1253" fromTop="36" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:index.htm" caret="1085" fromTop="33" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:index.htm" caret="164" fromTop="8" />
+      <File id="062CCD91-3259-402D-9EDA-A8A6FAF74C21/f:index.htm" caret="562" fromTop="13" />
+      <File id="80A3F30F-4121-4DE4-83DD-6F122FFC5F6E/f:PlugInBroker.cs" caret="4969" fromTop="24" />
+      <File id="80A3F30F-4121-4DE4-83DD-6F122FFC5F6E/f:PlugInBroker.cs" caret="6748" fromTop="33" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="Multiselect" priority="0" />
+      <Item value="false" priority="2" />
+      <Item value="IArchServerPlugIn`0" priority="0" />
+      <Item value="return" priority="12" />
+      <Item value="if" priority="9" />
+      <Item value="Host" priority="3" />
+      <Item value="null" priority="0" />
+      <Item value="IArchServerModulePlugIn`0" priority="1" />
+      <Item value="int" priority="3" />
+      <Item value="char" priority="0" />
+      <Item value="data" priority="0" />
+      <Item value="count" priority="1" />
+      <Item value="continue" priority="0" />
+      <Item value="operation" priority="1" />
+      <Item value="else" priority="1" />
+      <Item value="Unregist`0" priority="0" />
+      <Item value="server" priority="0" />
+      <Item value="switch" priority="0" />
+      <Item value="case" priority="1" />
+      <Item value="break" priority="1" />
+      <Item value="KeyValuePair" priority="0" />
+      <Item value="string" priority="2" />
+      <Item value="FormatException`0" priority="0" />
+      <Item value="IFormatProvider`0" priority="1" />
+      <Item value="MS" priority="0" />
+      <Item value="mServers" priority="2" />
+      <Item value="using" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="Linq" priority="0" />
+      <Item value="p" priority="1" />
+      <Item value="aName" priority="1" />
+      <Item value="aPort" priority="3" />
+      <Item value="new" priority="2" />
+      <Item value="KeyValuePair&lt;string,int&gt;" priority="1" />
+      <Item value="String`0" priority="1" />
+      <Item value="aAddress" priority="1" />
+      <Item value="private" priority="2" />
+      <Item value="InterNetwork" priority="0" />
+      <Item value="redoToolStripMenuItem" priority="0" />
+      <Item value="ip" priority="0" />
+      <Item value="mServerName" priority="0" />
+      <Item value="item" priority="1" />
+      <Item value="TcpClient`0" priority="0" />
+      <Item value="redirection" priority="1" />
+      <Item value="aResponse" priority="2" />
+      <Item value="aRequest" priority="2" />
+      <Item value="client" priority="1" />
+      <Item value="var" priority="0" />
+      <Item value="parameters" priority="0" />
+      <Item value="listener" priority="0" />
+      <Item value="mNextServer" priority="0" />
+      <Item value="GetQueryString`0" priority="0" />
+      <Item value="PlugInEvents`0" priority="0" />
+      <Item value="static" priority="0" />
+      <Item value="counter" priority="1" />
+      <Item value="WaitForChangedResult`0" priority="0" />
+      <Item value="true" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ArchBench.IArchServerPlugInHost">
+      <Item value="Logger" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Any`1" priority="1" />
+      <Item value="Remove`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Key" priority="2" />
+      <Item value="Value" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ArchBench.IArchServerLogger">
+      <Item value="WriteLine`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="0" />
+      <Item value="Format`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripButton">
+      <Item value="Checked" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.IPAddress">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripTextBox">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HttpServer.HttpInputItem">
+      <Item value="Name" priority="0" />
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Indexer" priority="0" />
+      <Item value="Append`0" priority="0" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HttpServer.IHttpRequest">
+      <Item value="QueryString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HttpServer.HttpInput">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ArchBench.PlugIns.Events.Resource">
+      <Item value="index" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HttpServer.IHttpResponse">
+      <Item value="ContentType" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

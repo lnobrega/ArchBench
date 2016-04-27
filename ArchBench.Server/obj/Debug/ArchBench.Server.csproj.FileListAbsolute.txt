@@ -1,0 +1,57 @@
+C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.Server\bin\Debug\ArchBench.Server.exe
+C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.Server\bin\Debug\ArchBench.Server.pdb
+C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.Server\bin\Debug\ArchBench.Core.dll
+C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.Server\bin\Debug\HttpServer.dll
+C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.Server\bin\Debug\HttpServer.xml
+C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.Server\bin\Debug\ArchBench.Core.pdb
+C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.Server\obj\Debug\ResolveAssemblyReference.cache
+C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.ArchServerForm.resources
+C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.Properties.Resources.resources
+C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.csproj.GenerateResource.Cache
+C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.exe
+C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.pdb
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Server\bin\Debug\ArchBench.Server.exe.config
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Server\bin\Debug\ArchBench.Server.exe
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Server\bin\Debug\ArchBench.Server.pdb
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Server\bin\Debug\ArchBench.Core.dll
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Server\bin\Debug\HttpServer.dll
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Server\bin\Debug\ArchBench.Core.pdb
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Server\bin\Debug\HttpServer.xml
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Server\obj\Debug\ResolveAssemblyReference.cache
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.ArchServerForm.resources
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.Properties.Resources.resources
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Server\obj\Debug\ResGen.read.1.tlog
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Server\obj\Debug\ResGen.write.1.tlog
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.exe
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.pdb
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Server\obj\Debug\Decl\ArchBench.Server.exe
+C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.Server\obj\Debug\Decl\ArchBench.Server.pdb
+C:\#\Projects\VisualStudio\ArchBench\ArchBench.Server\bin\Debug\ArchBench.Server.exe.config
+C:\#\Projects\VisualStudio\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.exe
+C:\#\Projects\VisualStudio\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.pdb
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Server\bin\Debug\ArchBench.Server.exe.config
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Server\obj\Debug\ArchBench.Server.exe
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Server\obj\Debug\ArchBench.Server.pdb
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Server\bin\Debug\ArchBench.Server.exe
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Server\bin\Debug\ArchBench.Server.pdb
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Server\bin\Debug\ArchBench.Core.dll
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Server\bin\Debug\HttpServer.dll
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Server\bin\Debug\ArchBench.Core.pdb
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Server\bin\Debug\HttpServer.xml
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Server\obj\Debug\ArchBench.Server.csprojResolveAssemblyReference.cache
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Server\obj\Debug\ArchBench.Server.ArchServerForm.resources
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Server\obj\Debug\ArchBench.Server.Properties.Resources.resources
+C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.Server\obj\Debug\ArchBench.Server.csproj.GenerateResource.Cache
+C:\Development\ArchBench\ArchBench.Server\bin\Debug\ArchBench.Server.exe.config
+C:\Development\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.exe
+C:\Development\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.pdb
+C:\Development\ArchBench\ArchBench.Server\bin\Debug\ArchBench.Server.exe
+C:\Development\ArchBench\ArchBench.Server\bin\Debug\ArchBench.Server.pdb
+C:\Development\ArchBench\ArchBench.Server\bin\Debug\ArchBench.Core.dll
+C:\Development\ArchBench\ArchBench.Server\bin\Debug\HttpServer.dll
+C:\Development\ArchBench\ArchBench.Server\bin\Debug\ArchBench.Core.pdb
+C:\Development\ArchBench\ArchBench.Server\bin\Debug\HttpServer.xml
+C:\Development\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.csprojResolveAssemblyReference.cache
+C:\Development\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.ArchServerForm.resources
+C:\Development\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.Properties.Resources.resources
+C:\Development\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.csproj.GenerateResource.Cache
