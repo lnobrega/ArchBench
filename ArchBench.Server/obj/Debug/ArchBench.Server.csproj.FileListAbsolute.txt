@@ -55,3 +55,6 @@ C:\Development\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.csprojResol
 C:\Development\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.ArchServerForm.resources
 C:\Development\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.Properties.Resources.resources
 C:\Development\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.csproj.GenerateResource.Cache
+C:\Development\Academics\ArchBench\ArchBench.Server\bin\Debug\ArchBench.Server.exe.config
+C:\Development\Academics\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.exe
+C:\Development\Academics\ArchBench\ArchBench.Server\obj\Debug\ArchBench.Server.pdb
