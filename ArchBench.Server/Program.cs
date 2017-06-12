@@ -11,9 +11,11 @@ namespace ArchBench.Server
         [STAThread]
         static void Main()
         {
+            Properties.Settings.Default.Reload();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new ArchServerForm());
+            Properties.Settings.Default.Save();
         }
     }
 }

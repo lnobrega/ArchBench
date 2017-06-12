@@ -1,32 +1,5 @@
-C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.PlugIns.Dispatcher\bin\Debug\ArchBench.PlugIns.Dispatcher.dll
-C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.PlugIns.Dispatcher\bin\Debug\ArchBench.PlugIns.Dispatcher.pdb
-C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.PlugIns.Dispatcher\bin\Debug\ArchBench.Core.dll
-C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.PlugIns.Dispatcher\bin\Debug\HttpServer.dll
-C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.PlugIns.Dispatcher\bin\Debug\HttpServer.xml
-C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.PlugIns.Dispatcher\bin\Debug\ArchBench.Core.pdb
-C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.PlugIns.Dispatcher\obj\Debug\ResolveAssemblyReference.cache
-C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.PlugIns.Dispatcher\obj\Debug\ArchBench.PlugIns.Dispatcher.dll
-C:\Archive\Academy\Software.Architectures\Projects\ArchBench\ArchBench.PlugIns.Dispatcher\obj\Debug\ArchBench.PlugIns.Dispatcher.pdb
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Dispatcher\bin\Debug\ArchBench.PlugIns.Dispatcher.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Dispatcher\bin\Debug\ArchBench.PlugIns.Dispatcher.pdb
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Dispatcher\bin\Debug\ArchBench.Core.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Dispatcher\bin\Debug\HttpServer.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Dispatcher\bin\Debug\ArchBench.Core.pdb
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Dispatcher\bin\Debug\HttpServer.xml
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Dispatcher\obj\Debug\ResolveAssemblyReference.cache
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Dispatcher\obj\Debug\ArchBench.PlugIns.Dispatcher.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Dispatcher\obj\Debug\ArchBench.PlugIns.Dispatcher.pdb
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Dispatcher\obj\Debug\Decl\ArchBench.PlugIns.Dispatcher.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Dispatcher\obj\Debug\Decl\ArchBench.PlugIns.Dispatcher.pdb
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Dispatcher.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Dispatcher.pdb
-C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Dispatcher.dll
-C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Dispatcher.pdb
-C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns.Dispatcher\obj\Debug\ArchBench.PlugIns.Dispatcher.csprojResolveAssemblyReference.cache
-C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns.Dispatcher\obj\Debug\ArchBench.PlugIns.Dispatcher.dll
-C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns.Dispatcher\obj\Debug\ArchBench.PlugIns.Dispatcher.pdb
-C:\Development\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Dispatcher.dll
-C:\Development\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Dispatcher.pdb
-C:\Development\ArchBench\ArchBench.PlugIns.Dispatcher\obj\Debug\ArchBench.PlugIns.Dispatcher.csprojResolveAssemblyReference.cache
-C:\Development\ArchBench\ArchBench.PlugIns.Dispatcher\obj\Debug\ArchBench.PlugIns.Dispatcher.dll
-C:\Development\ArchBench\ArchBench.PlugIns.Dispatcher\obj\Debug\ArchBench.PlugIns.Dispatcher.pdb
+C:\Development\Academics\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Dispatcher.dll
+C:\Development\Academics\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Dispatcher.pdb
+C:\Development\Academics\ArchBench\ArchBench.PlugIns.Dispatcher\obj\Debug\ArchBench.PlugIns.Dispatcher.csprojResolveAssemblyReference.cache
+C:\Development\Academics\ArchBench\ArchBench.PlugIns.Dispatcher\obj\Debug\ArchBench.PlugIns.Dispatcher.dll
+C:\Development\Academics\ArchBench\ArchBench.PlugIns.Dispatcher\obj\Debug\ArchBench.PlugIns.Dispatcher.pdb

@@ -23,7 +23,7 @@ namespace ArchBench.Server
 
         private void OnExit(object sender, EventArgs e)
         {
-            if ( mServer != null ) mServer.Stop();
+            mServer?.Stop();
             mModulePlugIns.PlugInsManager.ClosePlugIns();
             Application.Exit();
         }
@@ -34,12 +34,9 @@ namespace ArchBench.Server
             if (mConnectTool.Checked)
             {
                 mServer = new HttpServer.HttpServer();
-
-//                mServer.Add( new ModuleHello( mLogger ) );
                 mServer.Add( mModulePlugIns );
-
                 mServer.Start( IPAddress.Any, int.Parse( mPort.Text ) );
-                mLogger.WriteLine( String.Format( "Server online on port {0}", mPort.Text ) );
+                mLogger.WriteLine( "Server online on port {0}", mPort.Text );
             }
             else
             {
@@ -50,15 +47,8 @@ namespace ArchBench.Server
 
         private void OnPlugIn( object sender, EventArgs e )
         {
-            OpenFileDialog dialog = new OpenFileDialog() { Multiselect = false };
-            dialog.Filter = @"Arch.Bench PlugIn File (*.dll)|*.dll";
-
-            if ( dialog.ShowDialog() == DialogResult.OK )
-            {
-                mModulePlugIns.PlugInsManager.AddPlugIn( dialog.FileName );
-                mLogger.WriteLine( String.Format( "Added PlugIn from {0}", 
-                    System.IO.Path.GetFileName( dialog.FileName ) ) );
-            }
+            var dialog = new PlugInsForm( mModulePlugIns.PlugInsManager );
+            dialog.ShowDialog();
         }
 
         private void OnRegistServer( object sender, EventArgs evt )
@@ -67,8 +57,7 @@ namespace ArchBench.Server
             {
                 TcpClient client = new TcpClient( mRemoteServerAddress.Text, 9000 );
 
-                Byte[] data = Encoding.ASCII.GetBytes( String.Format( "{0}{1}-{2}", 
-                    mRegistButton.Checked ? '+' : '-',  GetServerIP(), mPort.Text ) );         
+                Byte[] data = Encoding.ASCII.GetBytes( $"{( mRegistButton.Checked ? '+' : '-' )}{ GetServerIP() }-{ mPort.Text }" );         
 
                 NetworkStream stream = client.GetStream();
                 stream.Write( data, 0, data.Length );
@@ -78,7 +67,7 @@ namespace ArchBench.Server
             } 
             catch ( SocketException e ) 
             {
-               mLogger.WriteLine( String.Format( "SocketException: {0}", e ) );
+               mLogger.WriteLine( "SocketException: {0}", e );
             }
 
         }

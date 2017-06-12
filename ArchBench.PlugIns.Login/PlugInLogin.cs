@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Reflection;
-using System.Text;
 using HttpServer;
 using HttpServer.Exceptions;
 using HttpServer.Helpers;
@@ -19,8 +18,6 @@ namespace ArchBench.PlugIns.Login
         {
             mManager.LoadResources(
                 "/user/login/", Assembly.GetExecutingAssembly(), Assembly.GetExecutingAssembly().GetName().Name );
-            this.MimeTypes = new Dictionary<string, string>();
-            AddDefaultMimeTypes();
         }
 
         #region IArchServerModulePlugIn Members
@@ -55,18 +52,14 @@ namespace ArchBench.PlugIns.Login
                     aSession["Username"] = aRequest.Form["Username"].Value;
                     Host.Logger.WriteLine( "User [{0}] logged on.", aSession["Username"] );
 
-                    StreamWriter writer = new StreamWriter(aResponse.Body);
+                    var writer = new StreamWriter(aResponse.Body);
                     writer.WriteLine( "<p>User <strong>{0}</strong> logged on.</p>", aSession["Username"] );
-                    writer.WriteLine("<a href=\"/user/store/\">Store</a>");
-                    writer.WriteLine("<a href=\"/user/logout/\">Logout</a>");
                     writer.Flush();
 
                     return true;
                 }
-                else
-                {
-                    Host.Logger.WriteLine("Error: invalid login data.");
-                }
+
+                Host.Logger.WriteLine("Error: invalid login data.");
             }
 
             return false;
@@ -79,7 +72,7 @@ namespace ArchBench.PlugIns.Login
             if ( ! IsResourceRequest( aRequest ) ) return false;
 
             string type;
-            Stream stream = GetResourceStream( GetResourceFilename(aRequest), out type );
+            var stream = GetResourceStream( GetResourceFilename(aRequest), out type );
             if ( stream == null ) return false;
 
             aResponse.ContentType = type;
@@ -105,17 +98,7 @@ namespace ArchBench.PlugIns.Login
 
             return true;
         }
-
-        private string GetResourceFilename( IHttpRequest aRequest )
-        {
-            if ( aRequest.UriParts[aRequest.UriParts.Length - 1].IndexOf('.') != -1 )
-                return aRequest.Uri.AbsolutePath;
-            if ( aRequest.Uri.AbsolutePath.EndsWith("/") )
-                return String.Format( "{0}.html",
-                    aRequest.Uri.AbsolutePath.Substring( 0, aRequest.Uri.AbsolutePath.Length - 1 ) );
-            return String.Format( "{0}.html", aRequest.Uri.AbsolutePath );
-        }
-
+        
         /// <summary>
         /// Returns true if the module can handle the request
         /// </summary>
@@ -126,92 +109,86 @@ namespace ArchBench.PlugIns.Login
             return true;
         }
 
+        private string GetResourceFilename( IHttpRequest aRequest )
+        {
+            if ( aRequest.UriParts.Length == 0 ) return string.Empty;
+
+            if ( aRequest.UriParts[aRequest.UriParts.Length - 1].IndexOf( '.' ) != -1 )
+                return aRequest.Uri.AbsolutePath;
+
+            if ( aRequest.Uri.AbsolutePath.EndsWith( "/" ) )
+                return $"{aRequest.Uri.AbsolutePath.Substring( 0, aRequest.Uri.AbsolutePath.Length - 1 )}.html";
+
+            return $"{aRequest.Uri.AbsolutePath}.html";
+        }
+
         /// <summary>
         /// List with all mime-type that are allowed. 
         /// </summary>
         /// <remarks>All other mime types will result in a Forbidden http status code.</remarks>
-        public IDictionary<string, string> MimeTypes
+        public IDictionary<string, string> MimeTypes => new Dictionary<string, string> {
+            {"default", "application/octet-stream"},
+            {    "txt", "text/plain"},
+            {   "html", "text/html"},
+            {    "htm", "text/html"},
+            {    "jpg", "image/jpg"},
+            {   "jpeg", "image/jpg"},
+            {    "bmp", "image/bmp"},
+            {    "gif", "image/gif"},
+            {    "png", "image/png"},
+            {    "ico", "image/vnd.microsoft.icon"},
+            {    "css", "text/css"},
+            {   "gzip", "application/x-gzip"},
+            {    "zip", "multipart/x-zip"},
+            {    "tar", "application/x-tar"},
+            {    "pdf", "application/pdf"},
+            {    "rtf", "application/rtf"},
+            {    "xls", "application/vnd.ms-excel"},
+            {    "ppt", "application/vnd.ms-powerpoint"},
+            {    "doc", "application/application/msword"},
+            {     "js", "application/javascript"},
+            {     "au", "audio/basic"},
+            {    "snd", "audio/basic"},
+            {     "es", "audio/echospeech"},
+            {    "mp3", "audio/mpeg"},
+            {    "mp2", "audio/mpeg"},
+            {    "mid", "audio/midi"},
+            {    "wav", "audio/x-wav"},
+            {    "swf", "application/x-shockwave-flash"},
+            {    "avi", "video/avi"},
+            {     "rm", "audio/x-pn-realaudio"},
+            {    "ram", "audio/x-pn-realaudio"},
+            {    "aif", "audio/x-aiff"}
+        };
+        
+        private Stream GetResourceStream( string aPath, out string aType )
         {
-            get; private set;
-        }
+            var position = aPath.LastIndexOf('.');
+            var extension = position == -1 ? null : aPath.Substring( position + 1 );
 
-        /// <summary>
-        /// Mimtypes that this class can handle per default
-        /// </summary>
-        public void AddDefaultMimeTypes()
-        {
-            MimeTypes.Add("default", "application/octet-stream");
-            MimeTypes.Add("txt", "text/plain");
-            MimeTypes.Add("html", "text/html");
-            MimeTypes.Add("htm", "text/html");
-            MimeTypes.Add("jpg", "image/jpg");
-            MimeTypes.Add("jpeg", "image/jpg");
-            MimeTypes.Add("bmp", "image/bmp");
-            MimeTypes.Add("gif", "image/gif");
-            MimeTypes.Add("png", "image/png");
-            MimeTypes.Add("ico", "image/vnd.microsoft.icon");
-
-            MimeTypes.Add("css", "text/css");
-            MimeTypes.Add("gzip", "application/x-gzip");
-            MimeTypes.Add("zip", "multipart/x-zip");
-            MimeTypes.Add("tar", "application/x-tar");
-            MimeTypes.Add("pdf", "application/pdf");
-            MimeTypes.Add("rtf", "application/rtf");
-            MimeTypes.Add("xls", "application/vnd.ms-excel");
-            MimeTypes.Add("ppt", "application/vnd.ms-powerpoint");
-            MimeTypes.Add("doc", "application/application/msword");
-            MimeTypes.Add("js", "application/javascript");
-            MimeTypes.Add("au", "audio/basic");
-            MimeTypes.Add("snd", "audio/basic");
-            MimeTypes.Add("es", "audio/echospeech");
-            MimeTypes.Add("mp3", "audio/mpeg");
-            MimeTypes.Add("mp2", "audio/mpeg");
-            MimeTypes.Add("mid", "audio/midi");
-            MimeTypes.Add("wav", "audio/x-wav");
-            MimeTypes.Add("swf", "application/x-shockwave-flash");
-            MimeTypes.Add("avi", "video/avi");
-            MimeTypes.Add("rm", "audio/x-pn-realaudio");
-            MimeTypes.Add("ram", "audio/x-pn-realaudio");
-            MimeTypes.Add("aif", "audio/x-aiff");
-        }
-
-        private Stream GetResourceStream( String aPath, out String aType )
-        {
-            int position = aPath.LastIndexOf('.');
-            string extension = position == -1 ? null : aPath.Substring( position + 1 );
             if ( extension == null )
                 throw new InternalServerException("Failed to find file extension");
 
-            if ( MimeTypes.ContainsKey(extension) )
+            if ( MimeTypes.ContainsKey( extension )  )
                 aType = MimeTypes[extension];
             else
-                throw new ForbiddenException("Forbidden file type: " + extension);
+                throw new ForbiddenException( "Forbidden file type: " + extension) ;
 
-            return mManager.GetResourceStream(aPath);
+            return mManager.GetResourceStream( aPath );
         }
 
 
         #region IArchServerPlugIn Members
 
-        public string Name
-        {
-            get { return "ArchServer Login Plugin"; }
-        }
+        public string Name => "ArchServer Login Plugin";
 
-        public string Description
-        {
-            get { return "Process /user/login/ requests"; }
-        }
+        public string Description => "Process /user/login/ requests";
 
-        public string Author
-        {
-            get { return "Leonel Nobrega"; }
-        }
+        public string Author => "Leonel Nobrega";
 
-        public string Version
-        {
-            get { return "1.0"; }
-        }
+        public string Version => "1.0";
+
+        public bool Enabled { get; set; }
 
         public IArchServerPlugInHost Host
         {

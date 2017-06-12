@@ -1,13 +1,12 @@
-﻿using System;
-
-namespace ArchBench
+﻿namespace ArchBench
 {
     public interface IArchServerPlugIn
     {
-        String Name        { get; }
-        String Description { get; }
-        String Author      { get; }
-        String Version     { get; }
+        string Name        { get; }
+        string Description { get; }
+        string Author      { get; }
+        string Version     { get; }
+        bool   Enabled     { get; set; }
 
         IArchServerPlugInHost Host { get; set; }
 

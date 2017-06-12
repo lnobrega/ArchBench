@@ -134,25 +134,15 @@ namespace ArchBench.PlugIns.Dispatcher
 
         #region IArchServerPlugIn Members
 
-        public string Name
-        {
-            get { return "ArchServer Dispatcher Plugin"; }
-        }
+        public string Name => "ArchServer Dispatcher Plugin";
 
-        public string Description
-        {
-            get { return "Dispatch clients to the proper server"; }
-        }
+        public string Description => "Dispatch clients to the proper server";
 
-        public string Author
-        {
-            get { return "Leonel Nobrega"; }
-        }
+        public string Author => "Leonel Nobrega";
 
-        public string Version
-        {
-            get { return "1.0"; }
-        }
+        public string Version => "1.0";
+
+        public bool Enabled { get; set; }
 
         public IArchServerPlugInHost Host
         {

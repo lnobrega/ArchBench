@@ -1,33 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using HttpServer;
+﻿using HttpServer;
 using HttpServer.Sessions;
 
 namespace ArchBench.PlugIns.Logger
 {
     public class PlugInLogger : IArchServerModulePlugIn
     {
-        public string Name
-        {
-            get { return "ArchBench Logger Server PlugIn"; }
-        }
+        #region IArchServerPlugIn Members
 
-        public string Description
-        {
-            get { return "Log all HTTP requests."; }
-        }
+        public string Name => "ArchBench Logger Server PlugIn";
 
-        public string Author
-        {
-            get { return "Leonel Nobrega"; }
-        }
+        public string Description => "Log all HTTP requests.";
 
-        public string Version
-        {
-            get { return "1.0"; }
-        }
+        public string Author => "Leonel Nobrega";
+
+        public string Version => "1.0";
+
+        public bool Enabled { get; set; }
 
         public IArchServerPlugInHost Host 
         {
@@ -42,18 +30,19 @@ namespace ArchBench.PlugIns.Logger
         {
         }
 
+        #endregion
+
         public bool Process( IHttpRequest aRequest, IHttpResponse aResponse, IHttpSession aSession )
         {
-            if ( Host != null )
+            if ( Host == null ) return false;
+
+            Host.Logger.WriteLine( "HTTP Request -----------------------------------" );
+            Host.Logger.WriteLine( "{0} {1} {2}", aRequest.Method, aRequest.UriPath, aRequest.HttpVersion );
+            foreach ( var key in aRequest.Headers.AllKeys  )
             {
-                Host.Logger.WriteLine( "HTTP Request -----------------------------------" );
-                Host.Logger.WriteLine( "{0} {1} {2}", aRequest.Method, aRequest.UriPath, aRequest.HttpVersion );
-                foreach ( var key in aRequest.Headers.AllKeys  )
-                {
-                    Host.Logger.WriteLine( "{0}: {1}", key, aRequest.Headers[key] );
-                }
-                Host.Logger.WriteLine();
+                Host.Logger.WriteLine( "{0}: {1}", key, aRequest.Headers[key] );
             }
+            Host.Logger.WriteLine();
 
             return false;
         }

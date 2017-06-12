@@ -82,13 +82,26 @@
     <Compile Include="ArchServerForm.Designer.cs">
       <DependentUpon>ArchServerForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ClickableToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IPlugInsManager.cs" />
     <Compile Include="ModuleHello.cs" />
     <Compile Include="ModulePlugIns.cs" />
+    <Compile Include="PlugInsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlugInsForm.Designer.cs">
+      <DependentUpon>PlugInsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="PlugInsManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ArchServerForm.resx">
       <DependentUpon>ArchServerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlugInsForm.resx">
+      <DependentUpon>PlugInsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
