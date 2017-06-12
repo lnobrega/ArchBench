@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ArchBench
+﻿namespace ArchBench
 {
     public interface IArchServerLogger
     {

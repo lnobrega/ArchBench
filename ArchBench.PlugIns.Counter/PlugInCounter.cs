@@ -6,25 +6,15 @@ namespace ArchBench.PlugIns.Counter
 {
     public class PlugInCounter : IArchServerModulePlugIn
     {
-        public string Name
-        {
-            get { return "ArchBench Server PlugIn Counter"; }
-        }
+        public string Name => "ArchBench Server PlugIn Counter";
 
-        public string Description
-        {
-            get { return "Count the number of requests."; }
-        }
+        public string Description => "Count the number of requests.";
 
-        public string Author
-        {
-            get { return "Leonel Nobrega"; }
-        }
+        public string Author => "Leonel Nobrega";
 
-        public string Version
-        {
-            get { return "1.0"; }
-        }
+        public string Version => "1.0";
+
+        public bool Enabled { get; set; }
 
         public IArchServerPlugInHost Host
         {

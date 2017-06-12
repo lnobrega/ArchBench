@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using HttpServer;
 using HttpServer.HttpModules;
 using HttpServer.Sessions;
@@ -28,7 +27,7 @@ namespace ArchBench.Server
         {
             if (aRequest.Uri.AbsolutePath == "/user/hello/")
             {
-                mLogger.WriteLine( String.Format( "Accept request for : {0}", aRequest.Uri.ToString() ) );
+                mLogger.WriteLine( $"Accept request for : { aRequest.Uri }" );
 
                 var writer = new StreamWriter( aResponse.Body );
                 writer.WriteLine( "Hello dude!" );

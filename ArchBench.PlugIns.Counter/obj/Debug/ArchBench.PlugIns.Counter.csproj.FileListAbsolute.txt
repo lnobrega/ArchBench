@@ -1,40 +1,9 @@
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2010-2011\ArchBench\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.PlugIns.Counter.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2010-2011\ArchBench\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.PlugIns.Counter.pdb
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2010-2011\ArchBench\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.Core.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2010-2011\ArchBench\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\HttpServer.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2010-2011\ArchBench\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.Core.pdb
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2010-2011\ArchBench\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\HttpServer.xml
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2010-2011\ArchBench\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ResolveAssemblyReference.cache
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2010-2011\ArchBench\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2010-2011\ArchBench\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.pdb
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2010-2011\ArchBench\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\Decl\ArchBench.PlugIns.Counter.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2010-2011\ArchBench\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\Decl\ArchBench.PlugIns.Counter.pdb
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.PlugIns.Counter.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.PlugIns.Counter.pdb
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.Core.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\HttpServer.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.Core.pdb
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\HttpServer.xml
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ResolveAssemblyReference.cache
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.pdb
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\Decl\ArchBench.PlugIns.Counter.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\Decl\ArchBench.PlugIns.Counter.pdb
-C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.PlugIns.Counter.dll
-C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.PlugIns.Counter.pdb
-C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.Core.dll
-C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns.Counter\bin\Debug\HttpServer.dll
-C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.Core.pdb
-C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns.Counter\bin\Debug\HttpServer.xml
-C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.csprojResolveAssemblyReference.cache
-C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.dll
-C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.pdb
-C:\Development\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.PlugIns.Counter.dll
-C:\Development\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.PlugIns.Counter.pdb
-C:\Development\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.Core.dll
-C:\Development\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\HttpServer.dll
-C:\Development\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.Core.pdb
-C:\Development\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\HttpServer.xml
-C:\Development\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.csprojResolveAssemblyReference.cache
-C:\Development\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.dll
-C:\Development\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.pdb
+C:\Development\Academics\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.PlugIns.Counter.dll
+C:\Development\Academics\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.PlugIns.Counter.pdb
+C:\Development\Academics\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.Core.dll
+C:\Development\Academics\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\HttpServer.dll
+C:\Development\Academics\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.Core.pdb
+C:\Development\Academics\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\HttpServer.xml
+C:\Development\Academics\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.csprojResolveAssemblyReference.cache
+C:\Development\Academics\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.dll
+C:\Development\Academics\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.pdb

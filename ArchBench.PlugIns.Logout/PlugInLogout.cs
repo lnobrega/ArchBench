@@ -30,25 +30,15 @@ namespace ArchBench.PlugIns.Logout
 
         #region IArchServerPlugIn Members
 
-        public string Name
-        {
-            get { return "ArchServer Logout Plugin"; }
-        }
+        public string Name => "ArchServer Logout Plugin";
 
-        public string Description
-        {
-            get { return "Process /user/logout/ requests"; }
-        }
+        public string Description => "Process /user/logout/ requests";
 
-        public string Author
-        {
-            get { return "Leonel Nobrega"; }
-        }
+        public string Author => "Leonel Nobrega";
 
-        public string Version
-        {
-            get { return "1.0"; }
-        }
+        public string Version => "1.0";
+
+        public bool Enabled { get; set; }
 
         public IArchServerPlugInHost Host
         {

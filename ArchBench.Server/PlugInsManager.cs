@@ -8,7 +8,7 @@ namespace ArchBench.Server
     /// <summary>
     /// Summary description for PlugInsManager.
     /// </summary>
-    public class PlugInsManager
+    public class PlugInsManager : IPlugInsManager
     {
         private readonly IList<IArchServerPlugIn> mPlugIns = new List<IArchServerPlugIn>();
         private readonly IArchServerPlugInHost    mHost;
@@ -24,12 +24,9 @@ namespace ArchBench.Server
         /// <summary>
         /// A Collection of all Plugins Found and Loaded by the FindPlugins() Method
         /// </summary>
-        public IEnumerable<IArchServerPlugIn> PlugIns
-        {
-            get { return mPlugIns; }
-        }
+        public IEnumerable<IArchServerPlugIn> PlugIns => mPlugIns;
 
-        public void AddPlugIn( string aFileName )
+        public IArchServerPlugIn AddPlugIn( string aFileName )
         {
             // reate a new assembly from the plugin file we're adding..
             Assembly assembly = Assembly.LoadFrom( aFileName );
@@ -57,7 +54,16 @@ namespace ArchBench.Server
 
                 //Add the new plugin to our collection here
                 mPlugIns.Add( instance );
+                instance.Enabled = true;
+
+                return instance;
             }
+            return null;
+        }
+
+        public void Remove( IArchServerPlugIn aPlugIn )
+        {
+            if ( mPlugIns.Contains( aPlugIn ) ) mPlugIns.Remove( aPlugIn );
         }
 
         /// <summary>
@@ -65,7 +71,7 @@ namespace ArchBench.Server
         /// </summary>
         /// <param name="aName">The name of the PlugIn</param>
         /// <returns></returns>
-        public IArchServerPlugIn Find( String aName )
+        public IArchServerPlugIn Find( string aName )
         {
             return mPlugIns.FirstOrDefault( p => p.Name == aName );
         }

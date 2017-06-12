@@ -8,7 +8,7 @@ namespace ArchBench.Server
     {
         public ModulePlugIns( IArchServerLogger aLogger )
         {
-            this.Logger = aLogger;
+            Logger = aLogger;
             PlugInsManager = new PlugInsManager( this );
         }
 
@@ -17,7 +17,10 @@ namespace ArchBench.Server
         public override bool Process( IHttpRequest aRequest, IHttpResponse aResponse, IHttpSession aSession )
         {
             foreach ( IArchServerModulePlugIn plugin in PlugInsManager.PlugIns )
+            {
+                if ( ! plugin.Enabled ) continue;
                 if ( plugin.Process( aRequest, aResponse, aSession ) ) return true;
+            }
             return false;
         }
 

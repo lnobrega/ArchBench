@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace ArchBench.Server
+{
+    internal class ClickableToolStrip : ToolStrip
+    {
+        const uint WM_LBUTTONDOWN = 0x201;
+        const uint WM_LBUTTONUP   = 0x202;
+
+        private static bool down = false;
+
+        protected override void WndProc( ref Message m )
+        {
+            if ( m.Msg == WM_LBUTTONUP && !down )
+            {
+                m.Msg = (int) WM_LBUTTONDOWN; base.WndProc( ref m );
+                m.Msg = (int) WM_LBUTTONUP;
+            }
+
+            if ( m.Msg == WM_LBUTTONDOWN ) down = true;
+            if ( m.Msg == WM_LBUTTONUP ) down = false;
+
+            base.WndProc( ref m );
+        }
+    }
+}

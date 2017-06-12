@@ -1,22 +1,5 @@
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2010-2011\ArchBench\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Logger.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2010-2011\ArchBench\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Logger.pdb
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2010-2011\ArchBench\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns.Logger\obj\Debug\ResolveAssemblyReference.cache
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2010-2011\ArchBench\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns.Logger\obj\Debug\ArchBench.PlugIns.Logger.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2010-2011\ArchBench\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns.Logger\obj\Debug\ArchBench.PlugIns.Logger.pdb
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2010-2011\ArchBench\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns.Logger\obj\Debug\Decl\ArchBench.PlugIns.Logger.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2010-2011\ArchBench\Projecto.ArchBench.Original\ArchBench\ArchBench.PlugIns.Logger\obj\Debug\Decl\ArchBench.PlugIns.Logger.pdb
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Logger.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Logger.pdb
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Logger\obj\Debug\ResolveAssemblyReference.cache
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Logger\obj\Debug\ArchBench.PlugIns.Logger.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Logger\obj\Debug\ArchBench.PlugIns.Logger.pdb
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Logger\obj\Debug\Decl\ArchBench.PlugIns.Logger.dll
-C:\Archive.Academics\Disciplines\Software Architecture\Editions\2011-2012\ArchBench\ArchBench.PlugIns.Logger\obj\Debug\Decl\ArchBench.PlugIns.Logger.pdb
-C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Logger.dll
-C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Logger.pdb
-C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns.Logger\obj\Debug\ArchBench.PlugIns.Logger.dll
-C:\#\Projects\VisualStudio\ArchBench.Full\ArchBench.PlugIns.Logger\obj\Debug\ArchBench.PlugIns.Logger.pdb
-C:\Development\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Logger.dll
-C:\Development\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Logger.pdb
-C:\Development\ArchBench\ArchBench.PlugIns.Logger\obj\Debug\ArchBench.PlugIns.Logger.dll
-C:\Development\ArchBench\ArchBench.PlugIns.Logger\obj\Debug\ArchBench.PlugIns.Logger.pdb
+C:\Development\Academics\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Logger.dll
+C:\Development\Academics\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Logger.pdb
+C:\Development\Academics\ArchBench\ArchBench.PlugIns.Logger\obj\Debug\ArchBench.PlugIns.Logger.csprojResolveAssemblyReference.cache
+C:\Development\Academics\ArchBench\ArchBench.PlugIns.Logger\obj\Debug\ArchBench.PlugIns.Logger.dll
+C:\Development\Academics\ArchBench\ArchBench.PlugIns.Logger\obj\Debug\ArchBench.PlugIns.Logger.pdb
