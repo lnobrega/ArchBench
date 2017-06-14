@@ -9,7 +9,7 @@ namespace ArchBench.Server
         /// </summary>
         IEnumerable<IArchServerPlugIn> PlugIns { get; }
 
-        IArchServerPlugIn AddPlugIn( string aFileName );
+        IEnumerable<IArchServerPlugIn> AddPlugIn( string aFileName );
 
         void Remove( IArchServerPlugIn aPlugIn );
 

@@ -1,4 +1,5 @@
-﻿using HttpServer;
+﻿using System.Collections.Generic;
+using HttpServer;
 using HttpServer.Sessions;
 
 namespace ArchBench.PlugIns.Logger
@@ -16,6 +17,8 @@ namespace ArchBench.PlugIns.Logger
         public string Version => "1.0";
 
         public bool Enabled { get; set; }
+
+        public IDictionary<string, string> Parameters { get; } = new Dictionary<string, string>();
 
         public IArchServerPlugInHost Host 
         {

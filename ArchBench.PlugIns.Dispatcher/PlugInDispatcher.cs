@@ -32,7 +32,7 @@ namespace ArchBench.PlugIns.Dispatcher
                 mListener.Start();
 
                 // Buffer for reading data
-                Byte[] bytes = new Byte[256];
+                byte[] bytes = new byte[256];
 
                 // Enter the listening loop.
                 while (true)
@@ -48,11 +48,11 @@ namespace ArchBench.PlugIns.Dispatcher
                     if ( count != 0 )
                     {
                         // Translate data bytes to a ASCII string.
-                        String data = Encoding.ASCII.GetString( bytes, 0, count );
+                        string data = Encoding.ASCII.GetString( bytes, 0, count );
 
                         char operation = data[0];
-                        String server  = data.Substring( 1, data.IndexOf( '-', 1 ) - 1 );
-                        String port    = data.Substring( data.IndexOf( '-', 1 ) + 1 );
+                        string server  = data.Substring( 1, data.IndexOf( '-', 1 ) - 1 );
+                        string port    = data.Substring( data.IndexOf( '-', 1 ) + 1 );
                         switch ( operation )
                         {
                             case '+' : 
@@ -62,7 +62,6 @@ namespace ArchBench.PlugIns.Dispatcher
                                 Unregist( server, int.Parse( port ) );
                                 break;
                         }
-
                     }
 
                     client.Close();
@@ -80,7 +79,7 @@ namespace ArchBench.PlugIns.Dispatcher
 
         private readonly List<KeyValuePair<string,int>> mServers = new List<KeyValuePair<string,int>>();
         
-        private void Regist( String aAddress, int aPort )
+        private void Regist( string aAddress, int aPort )
         {
             if ( mServers.Any( p => p.Key == aAddress && p.Value == aPort ) ) return;
             mServers.Add( new KeyValuePair<string, int>( aAddress, aPort) );
@@ -108,7 +107,7 @@ namespace ArchBench.PlugIns.Dispatcher
             if ( mServers.Count == 0 ) return false;
             mNextServer = ( mNextServer + 1 ) % mServers.Count;
 
-            Host.Logger.WriteLine( String.Format( "Dispatching to server on port {0}", mServers[mNextServer] ) );
+            Host.Logger.WriteLine( string.Format( "Dispatching to server on port {0}", mServers[mNextServer] ) );
 
             var redirection = new StringBuilder();
             redirection.AppendFormat("http://{0}:{1}", mServers[mNextServer].Key, mServers[mNextServer].Value );
@@ -120,7 +119,7 @@ namespace ArchBench.PlugIns.Dispatcher
                 redirection.Append( '?' );
                 foreach ( HttpInputItem item in aRequest.QueryString )
                 {
-                    redirection.Append( String.Format( "{0}={1}", item.Name, item.Value ) );
+                    redirection.Append( string.Format( "{0}={1}", item.Name, item.Value ) );
                     if ( --count > 0 ) redirection.Append( '&' );
                 }
             }
@@ -143,6 +142,8 @@ namespace ArchBench.PlugIns.Dispatcher
         public string Version => "1.0";
 
         public bool Enabled { get; set; }
+
+        public IDictionary<string, string> Parameters { get; } = new Dictionary<string, string>();
 
         public IArchServerPlugInHost Host
         {

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using HttpServer;
 using HttpServer.Sessions;
 
@@ -16,14 +17,13 @@ namespace ArchBench.PlugIns.Counter
 
         public bool Enabled { get; set; }
 
-        public IArchServerPlugInHost Host
-        {
-            get;
-            set;
-        }
+        public IDictionary<string, string> Parameters { get; } = new Dictionary<string, string>();
+        
+        public IArchServerPlugInHost Host { get; set; }
 
         public void Initialize()
         {
+
         }
 
         public void Dispose()

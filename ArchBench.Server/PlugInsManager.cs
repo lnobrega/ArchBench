@@ -26,12 +26,14 @@ namespace ArchBench.Server
         /// </summary>
         public IEnumerable<IArchServerPlugIn> PlugIns => mPlugIns;
 
-        public IArchServerPlugIn AddPlugIn( string aFileName )
+        public IEnumerable<IArchServerPlugIn> AddPlugIn( string aFileName )
         {
             // reate a new assembly from the plugin file we're adding..
             Assembly assembly = Assembly.LoadFrom( aFileName );
 
-            //Next we'll loop through all the Types found in the assembly
+            var instances = new List<IArchServerPlugIn>();
+
+            // Next we'll loop through all the Types found in the assembly
             foreach ( Type type in assembly.GetTypes() )
             {
                 if ( ! type.IsPublic ) continue;
@@ -44,7 +46,7 @@ namespace ArchBench.Server
                 if ( typeInterface == null ) continue;
 
                 // Create a new instance and store the instance in the collection for later use
-                IArchServerPlugIn instance = (IArchServerPlugIn) Activator.CreateInstance( assembly.GetType( type.ToString() ) );
+                var instance = (IArchServerPlugIn) Activator.CreateInstance( assembly.GetType( type.ToString() ) );
 
                 // Set the Plugin's host to this class which inherited IPluginHost
                 instance.Host = mHost;
@@ -54,11 +56,12 @@ namespace ArchBench.Server
 
                 //Add the new plugin to our collection here
                 mPlugIns.Add( instance );
-                instance.Enabled = true;
 
-                return instance;
+                instance.Enabled = true;
+                instances.Add( instance );
             }
-            return null;
+
+            return instances;
         }
 
         public void Remove( IArchServerPlugIn aPlugIn )

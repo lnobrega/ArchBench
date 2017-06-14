@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 using HttpServer;
@@ -30,7 +31,7 @@ namespace ArchBench.PlugIns.Logout
 
         #region IArchServerPlugIn Members
 
-        public string Name => "ArchServer Logout Plugin";
+        public string Name => "ArchBench 'Logout' Plugin";
 
         public string Description => "Process /user/logout/ requests";
 
@@ -39,6 +40,8 @@ namespace ArchBench.PlugIns.Logout
         public string Version => "1.0";
 
         public bool Enabled { get; set; }
+
+        public IDictionary<string, string> Parameters { get; } = new Dictionary<string, string>();
 
         public IArchServerPlugInHost Host
         {

@@ -1,4 +1,6 @@
-﻿namespace ArchBench
+﻿using System.Collections.Generic;
+
+namespace ArchBench
 {
     public interface IArchServerPlugIn
     {
@@ -7,6 +9,8 @@
         string Author      { get; }
         string Version     { get; }
         bool   Enabled     { get; set; }
+
+        IDictionary<string,string> Parameters { get; }
 
         IArchServerPlugInHost Host { get; set; }
 

@@ -52,9 +52,16 @@ namespace ArchBench.PlugIns.Login
                     aSession["Username"] = aRequest.Form["Username"].Value;
                     Host.Logger.WriteLine( "User [{0}] logged on.", aSession["Username"] );
 
-                    var writer = new StreamWriter(aResponse.Body);
-                    writer.WriteLine( "<p>User <strong>{0}</strong> logged on.</p>", aSession["Username"] );
-                    writer.Flush();
+                    if ( Parameters.ContainsKey( "Redirect" ) && ! string.IsNullOrEmpty( Parameters["Redirect"] ) )
+                    {
+                        aResponse.Redirect( Parameters["Redirect"] );
+                    }
+                    else
+                    {
+                        var writer = new StreamWriter(aResponse.Body);
+                        writer.WriteLine( "<p>User <strong>{0}</strong> logged on.</p>", aSession["Username"] );
+                        writer.Flush();
+                    }
 
                     return true;
                 }
@@ -180,7 +187,7 @@ namespace ArchBench.PlugIns.Login
 
         #region IArchServerPlugIn Members
 
-        public string Name => "ArchServer Login Plugin";
+        public string Name => "ArchBench 'Login' Plugin";
 
         public string Description => "Process /user/login/ requests";
 
@@ -190,6 +197,8 @@ namespace ArchBench.PlugIns.Login
 
         public bool Enabled { get; set; }
 
+        public IDictionary<string, string> Parameters { get; } = new Dictionary<string, string>();
+
         public IArchServerPlugInHost Host
         {
             get; set;
@@ -197,6 +206,7 @@ namespace ArchBench.PlugIns.Login
 
         public void Initialize()
         {
+            Parameters.Add( "Redirect", "" );
         }
 
         public void Dispose()

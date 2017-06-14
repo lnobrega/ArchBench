@@ -3,13 +3,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{6E27897A-D0AB-4F1F-92EF-F1079CF0416E}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <ProjectGuid>{80A3F30F-4121-4DE4-83DD-6F122FFC5F6E}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ArchBench.Server</RootNamespace>
-    <AssemblyName>ArchBench.Server</AssemblyName>
+    <RootNamespace>ArchBench.PlugIns.Broker</RootNamespace>
+    <AssemblyName>ArchBench.PlugIns.Broker</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
@@ -37,7 +37,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\ArchBench.PlugIns\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -70,73 +70,14 @@
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Data" />
-    <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArchServerForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ArchServerForm.Designer.cs">
-      <DependentUpon>ArchServerForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ClickableToolStrip.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="IPlugInsManager.cs" />
-    <Compile Include="ModuleHello.cs" />
-    <Compile Include="ModulePlugIns.cs" />
-    <Compile Include="PlugInsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PlugInsForm.Designer.cs">
-      <DependentUpon>PlugInsForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PlugInsManager.cs" />
-    <Compile Include="PlugInsSettingsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PlugInsSettingsForm.Designer.cs">
-      <DependentUpon>PlugInsSettingsForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="PlugInBroker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UI\DictionaryPropertyDescriptor.cs" />
-    <Compile Include="UI\DictionaryPropertyGridAdapter.cs" />
-    <EmbeddedResource Include="ArchServerForm.resx">
-      <DependentUpon>ArchServerForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PlugInsForm.resx">
-      <DependentUpon>PlugInsForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PlugInsSettingsForm.resx">
-      <DependentUpon>PlugInsSettingsForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <None Include="app.config" />
-    <None Include="ArchBench.Server.cd" />
-    <None Include="Diagrams\HTTPServer.cd" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
-    <Compile Include="TextBoxLogger.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ArchBench.Core\ArchBench.Core.csproj">

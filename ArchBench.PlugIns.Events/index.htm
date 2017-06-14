@@ -1,0 +1,45 @@
+﻿<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>HTML Server Sent Events</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        function changeText() {
+            document.getElementById('boldStuff').innerHTML = 'Fred Flinstone';
+        }
+    </script>
+    <p>Welcome to the site <b id='boldStuff'>dude</b> </p> 
+    <input type='button' onclick='changeText()' value='Change Text'/>
+
+
+    <div id="sse">
+       <eventsource id='source' src='http://127.0.0.1:8081/footzon/event.htm' />
+    </div>
+
+    <p>The last event was :<b id='last'>event 0</b> </p> 
+
+    <script type="text/javascript">
+        function initialize() {
+            alert("Running script.");
+            document.getElementById('last').innerHTML = 'new event';
+            document.getElementById('source').addEventListener( "server-time", eventHandler, false );
+            //            document.getElementsByTagName("eventsource")[0].addEventListener("server-time", eventHandler, false);
+        }
+
+        function eventHandler(event) {
+            // Alert time sent by the server
+            document.querySelector('#ticker').innerHTML = event.data;
+        }
+    </script>
+    <input type='button' onclick='initialize()' value='Initialize'/>
+
+
+
+</body>
+
+</html>

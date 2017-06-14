@@ -40,27 +40,29 @@
             this.mAuthorColumnHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.mDescriptionColumnHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.mPlugInsImageList = new System.Windows.Forms.ImageList(this.components);
+            this.mSettingsButton = new System.Windows.Forms.Button();
             this.mTableLayoutPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // mTableLayoutPanel
             // 
-            this.mTableLayoutPanel.ColumnCount = 4;
+            this.mTableLayoutPanel.ColumnCount = 5;
+            this.mTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.mTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.mTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.mTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.mTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.mTableLayoutPanel.Controls.Add(this.mAppendButton, 1, 1);
-            this.mTableLayoutPanel.Controls.Add(this.mRemoveButton, 2, 1);
-            this.mTableLayoutPanel.Controls.Add(this.mCloseButton, 3, 1);
+            this.mTableLayoutPanel.Controls.Add(this.mAppendButton, 2, 1);
+            this.mTableLayoutPanel.Controls.Add(this.mRemoveButton, 3, 1);
+            this.mTableLayoutPanel.Controls.Add(this.mCloseButton, 4, 1);
             this.mTableLayoutPanel.Controls.Add(this.mPlugInsListView, 0, 0);
+            this.mTableLayoutPanel.Controls.Add(this.mSettingsButton, 0, 1);
             this.mTableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mTableLayoutPanel.Location = new System.Drawing.Point(0, 0);
             this.mTableLayoutPanel.Name = "mTableLayoutPanel";
             this.mTableLayoutPanel.RowCount = 2;
             this.mTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.mTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.mTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.mTableLayoutPanel.Size = new System.Drawing.Size(1576, 636);
             this.mTableLayoutPanel.TabIndex = 0;
             // 
@@ -78,13 +80,14 @@
             this.mAppendButton.Text = "Append";
             this.mAppendButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.mAppendButton.UseVisualStyleBackColor = true;
-            this.mAppendButton.Click += new System.EventHandler(this.OnAppendPlugIn);
+            this.mAppendButton.Click += new System.EventHandler(this.OnAppend);
             // 
             // mRemoveButton
             // 
             this.mRemoveButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.mRemoveButton.AutoSize = true;
             this.mRemoveButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.mRemoveButton.Enabled = false;
             this.mRemoveButton.Image = ((System.Drawing.Image)(resources.GetObject("mRemoveButton.Image")));
             this.mRemoveButton.Location = new System.Drawing.Point(1327, 583);
             this.mRemoveButton.MinimumSize = new System.Drawing.Size(120, 50);
@@ -119,7 +122,7 @@
             this.mVersionColumnHeader,
             this.mAuthorColumnHeader,
             this.mDescriptionColumnHeader});
-            this.mTableLayoutPanel.SetColumnSpan(this.mPlugInsListView, 4);
+            this.mTableLayoutPanel.SetColumnSpan(this.mPlugInsListView, 5);
             this.mPlugInsListView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mPlugInsListView.FullRowSelect = true;
             this.mPlugInsListView.GridLines = true;
@@ -160,6 +163,23 @@
             this.mPlugInsImageList.Images.SetKeyName(0, "plugin");
             this.mPlugInsImageList.Images.SetKeyName(1, "plugin_disabled");
             // 
+            // mSettingsButton
+            // 
+            this.mSettingsButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.mSettingsButton.AutoSize = true;
+            this.mSettingsButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.mSettingsButton.Enabled = false;
+            this.mSettingsButton.Image = ((System.Drawing.Image)(resources.GetObject("mSettingsButton.Image")));
+            this.mSettingsButton.Location = new System.Drawing.Point(3, 583);
+            this.mSettingsButton.MinimumSize = new System.Drawing.Size(120, 50);
+            this.mSettingsButton.Name = "mSettingsButton";
+            this.mSettingsButton.Size = new System.Drawing.Size(124, 50);
+            this.mSettingsButton.TabIndex = 2;
+            this.mSettingsButton.Text = "Settings...";
+            this.mSettingsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.mSettingsButton.UseVisualStyleBackColor = true;
+            this.mSettingsButton.Click += new System.EventHandler(this.OnSettings);
+            // 
             // PlugInsForm
             // 
             this.AcceptButton = this.mCloseButton;
@@ -187,5 +207,6 @@
         private System.Windows.Forms.ImageList mPlugInsImageList;
         private System.Windows.Forms.ColumnHeader mAuthorColumnHeader;
         private System.Windows.Forms.ColumnHeader mDescriptionColumnHeader;
+        private System.Windows.Forms.Button mSettingsButton;
     }
 }

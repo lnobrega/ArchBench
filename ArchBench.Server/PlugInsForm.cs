@@ -15,6 +15,10 @@ namespace ArchBench.Server
         public PlugInsForm( IPlugInsManager aManager )
         {
             InitializeComponent();
+            mPlugInsListView.SelectedIndexChanged +=
+                ( sender, args ) => mSettingsButton.Enabled = mPlugInsListView.SelectedItems.Count > 0;
+            mPlugInsListView.SelectedIndexChanged +=
+                ( sender, args ) => mRemoveButton.Enabled = mPlugInsListView.SelectedItems.Count > 0;
 
             PlugInsManager = aManager;
 
@@ -26,15 +30,22 @@ namespace ArchBench.Server
 
         private IPlugInsManager PlugInsManager { get; set; }
 
-        private void OnAppendPlugIn( object sender, EventArgs e )
+        private void OnAppend( object sender, EventArgs e )
         {
             OpenFileDialog dialog = new OpenFileDialog() { Multiselect = false };
+            dialog.Multiselect = true;
             dialog.Filter = @"Arch.Bench PlugIn File (*.dll)|*.dll";
 
             if ( dialog.ShowDialog() == DialogResult.OK )
             {
-                var plugin = PlugInsManager.AddPlugIn( dialog.FileName );
-                if ( plugin != null ) AppendPlugIn( plugin );
+                foreach ( var name in dialog.FileNames )
+                {
+                    var plugins = PlugInsManager.AddPlugIn( name );
+                    foreach ( var plugin in plugins )
+                    {
+                        AppendPlugIn( plugin );
+                    }
+                }
             }
         }
 
@@ -74,6 +85,14 @@ namespace ArchBench.Server
 
             var plugin = (IArchServerPlugIn) e.Item.Tag;
             if ( plugin != null ) plugin.Enabled = e.Item.Checked;
+        }
+
+        private void OnSettings( object sender, EventArgs e )
+        {
+            if ( mPlugInsListView.SelectedItems.Count == 0 ) return;
+
+            var dialog = new PlugInsSettingsForm( mPlugInsListView.SelectedItems[0].Tag as IArchServerPlugIn );
+            dialog.ShowDialog();
         }
     }
 }
