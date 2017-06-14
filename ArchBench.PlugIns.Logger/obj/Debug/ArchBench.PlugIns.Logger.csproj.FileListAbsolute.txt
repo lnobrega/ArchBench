@@ -1,5 +1,0 @@
-C:\Development\Academics\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Logger.dll
-C:\Development\Academics\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Logger.pdb
-C:\Development\Academics\ArchBench\ArchBench.PlugIns.Logger\obj\Debug\ArchBench.PlugIns.Logger.csprojResolveAssemblyReference.cache
-C:\Development\Academics\ArchBench\ArchBench.PlugIns.Logger\obj\Debug\ArchBench.PlugIns.Logger.dll
-C:\Development\Academics\ArchBench\ArchBench.PlugIns.Logger\obj\Debug\ArchBench.PlugIns.Logger.pdb

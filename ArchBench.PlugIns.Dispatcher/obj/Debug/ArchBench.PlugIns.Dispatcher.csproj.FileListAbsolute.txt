@@ -1,5 +1,0 @@
-C:\Development\Academics\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Dispatcher.dll
-C:\Development\Academics\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Dispatcher.pdb
-C:\Development\Academics\ArchBench\ArchBench.PlugIns.Dispatcher\obj\Debug\ArchBench.PlugIns.Dispatcher.csprojResolveAssemblyReference.cache
-C:\Development\Academics\ArchBench\ArchBench.PlugIns.Dispatcher\obj\Debug\ArchBench.PlugIns.Dispatcher.dll
-C:\Development\Academics\ArchBench\ArchBench.PlugIns.Dispatcher\obj\Debug\ArchBench.PlugIns.Dispatcher.pdb

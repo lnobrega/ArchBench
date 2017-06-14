@@ -1,7 +1,0 @@
-C:\Development\Academics\ArchBench\ArchBench.Core\bin\Debug\ArchBench.Core.dll
-C:\Development\Academics\ArchBench\ArchBench.Core\bin\Debug\ArchBench.Core.pdb
-C:\Development\Academics\ArchBench\ArchBench.Core\bin\Debug\HttpServer.dll
-C:\Development\Academics\ArchBench\ArchBench.Core\bin\Debug\HttpServer.xml
-C:\Development\Academics\ArchBench\ArchBench.Core\obj\Debug\ArchBench.Core.csprojResolveAssemblyReference.cache
-C:\Development\Academics\ArchBench\ArchBench.Core\obj\Debug\ArchBench.Core.dll
-C:\Development\Academics\ArchBench\ArchBench.Core\obj\Debug\ArchBench.Core.pdb

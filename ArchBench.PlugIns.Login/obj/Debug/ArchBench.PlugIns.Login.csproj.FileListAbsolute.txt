@@ -1,7 +1,0 @@
-C:\Development\Academics\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Login.dll
-C:\Development\Academics\ArchBench\ArchBench.PlugIns\Debug\ArchBench.PlugIns.Login.pdb
-C:\Development\Academics\ArchBench\ArchBench.PlugIns.Login\obj\Debug\ArchBench.PlugIns.Login.Resource.resources
-C:\Development\Academics\ArchBench\ArchBench.PlugIns.Login\obj\Debug\ArchBench.PlugIns.Login.csproj.GenerateResource.Cache
-C:\Development\Academics\ArchBench\ArchBench.PlugIns.Login\obj\Debug\ArchBench.PlugIns.Login.dll
-C:\Development\Academics\ArchBench\ArchBench.PlugIns.Login\obj\Debug\ArchBench.PlugIns.Login.pdb
-C:\Development\Academics\ArchBench\ArchBench.PlugIns.Login\obj\Debug\ArchBench.PlugIns.Login.csprojResolveAssemblyReference.cache
