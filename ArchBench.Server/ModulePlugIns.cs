@@ -1,4 +1,5 @@
-﻿using HttpServer;
+﻿using System.Diagnostics;
+using HttpServer;
 using HttpServer.HttpModules;
 using HttpServer.Sessions;
 
@@ -16,8 +17,11 @@ namespace ArchBench.Server
 
         public override bool Process( IHttpRequest aRequest, IHttpResponse aResponse, IHttpSession aSession )
         {
-            foreach ( IArchServerModulePlugIn plugin in PlugInsManager.PlugIns )
+            foreach ( var archServerPlugIn in PlugInsManager.PlugIns )
             {
+                var plugin = (IArchServerModulePlugIn) archServerPlugIn;
+                Debug.Assert( plugin != null );
+
                 if ( ! plugin.Enabled ) continue;
                 if ( plugin.Process( aRequest, aResponse, aSession ) ) return true;
             }
