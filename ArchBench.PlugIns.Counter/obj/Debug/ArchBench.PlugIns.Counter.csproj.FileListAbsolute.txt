@@ -7,3 +7,14 @@ C:\Development\Academics\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\HttpServe
 C:\Development\Academics\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.csprojResolveAssemblyReference.cache
 C:\Development\Academics\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.dll
 C:\Development\Academics\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.pdb
+C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.PlugIns.Counter.dll
+C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.PlugIns.Counter.pdb
+C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.Core.dll
+C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\HttpServer.dll
+C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\ArchBench.Core.pdb
+C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.PlugIns.Counter\bin\Debug\HttpServer.xml
+C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.csprojResolveAssemblyReference.cache
+C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.csproj.CoreCompileInputs.cache
+C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.csproj.CopyComplete
+C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.dll
+C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.PlugIns.Counter\obj\Debug\ArchBench.PlugIns.Counter.pdb
