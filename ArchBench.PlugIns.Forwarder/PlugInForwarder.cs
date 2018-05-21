@@ -8,7 +8,7 @@ using HttpServer.Sessions;
 
 namespace ArchBench.PlugIns.Forwarder
 {
-    public class PlugInForwarder : IArchServerModulePlugIn
+    public class PlugInForwarder : IArchServerHTTPPlugIn
     {
         private readonly Dictionary<string,string> mServers = new Dictionary<string, string>();
 

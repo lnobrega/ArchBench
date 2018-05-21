@@ -7,7 +7,7 @@ using HttpServer.Sessions;
 
 namespace ArchBench.PlugIns.Logout
 {
-    public class PlugInLogout : IArchServerModulePlugIn
+    public class PlugInLogout : IArchServerHTTPPlugIn
     {
         #region IArchServerModulePlugIn Members
 

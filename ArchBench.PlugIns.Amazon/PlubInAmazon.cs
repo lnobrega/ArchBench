@@ -9,7 +9,7 @@ using HttpServer.Sessions;
 
 namespace ArchBench.PlugIns.Amazon
 {
-    public class PlubInAmazon : IArchServerModulePlugIn
+    public class PlubInAmazon : IArchServerHTTPPlugIn
     {
         public string Name => "ArchBench 'Amazon' PlugIn";
 

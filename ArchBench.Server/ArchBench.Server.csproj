@@ -85,16 +85,16 @@
     <Compile Include="ClickableToolStrip.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="IPlugInsManager.cs" />
-    <Compile Include="ModuleHello.cs" />
-    <Compile Include="ModulePlugIns.cs" />
+    <Compile Include="PlugIns\IPlugInsManager.cs" />
+    <Compile Include="Modules\ModuleHello.cs" />
+    <Compile Include="PlugIns\ModulePlugIns.cs" />
     <Compile Include="PlugInsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PlugInsForm.Designer.cs">
       <DependentUpon>PlugInsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="PlugInsManager.cs" />
+    <Compile Include="PlugIns\PlugInsManager.cs" />
     <Compile Include="PlugInsSettingsForm.cs">
       <SubType>Form</SubType>
     </Compile>

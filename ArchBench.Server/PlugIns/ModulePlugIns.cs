@@ -19,7 +19,7 @@ namespace ArchBench.Server
         {
             foreach ( var archServerPlugIn in PlugInsManager.PlugIns )
             {
-                var plugin = (IArchServerModulePlugIn) archServerPlugIn;
+                var plugin = (IArchServerHTTPPlugIn) archServerPlugIn;
                 Debug.Assert( plugin != null );
 
                 if ( ! plugin.Enabled ) continue;

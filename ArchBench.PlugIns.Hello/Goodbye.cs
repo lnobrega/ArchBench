@@ -3,7 +3,7 @@ using System.IO;
 
 namespace ArchBench.PlugIns.Hello
 {
-    public class Goodbye : IArchServerModulePlugIn
+    public class Goodbye : IArchServerHTTPPlugIn
     {
         public string Name => "Goodbye Module Plug In";
 

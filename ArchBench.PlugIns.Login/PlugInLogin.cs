@@ -10,7 +10,7 @@ using HttpServer.Sessions;
 
 namespace ArchBench.PlugIns.Login
 {
-    public class PlugInLogin : IArchServerModulePlugIn
+    public class PlugInLogin : IArchServerHTTPPlugIn
     {
         private readonly ResourceManager mManager = new ResourceManager();
 

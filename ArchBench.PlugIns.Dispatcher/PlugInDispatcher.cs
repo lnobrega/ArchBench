@@ -11,7 +11,7 @@ using System.Linq;
 
 namespace ArchBench.PlugIns.Dispatcher
 {
-    public class PlugInDispatcher : IArchServerModulePlugIn
+    public class PlugInDispatcher : IArchServerHTTPPlugIn
     {
         private readonly TcpListener mListener;
         private int                  mNextServer;

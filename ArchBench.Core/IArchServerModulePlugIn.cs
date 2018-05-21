@@ -3,7 +3,7 @@ using HttpServer.Sessions;
 
 namespace ArchBench
 {
-    public interface IArchServerModulePlugIn : IArchServerPlugIn
+    public interface IArchServerHTTPPlugIn : IArchServerPlugIn
     {
         bool Process( IHttpRequest aRequest, IHttpResponse aResponse, IHttpSession aSession );
     }

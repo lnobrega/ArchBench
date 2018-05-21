@@ -4,7 +4,7 @@ using HttpServer.Sessions;
 
 namespace ArchBench.PlugIns.Logger
 {
-    public class PlugInLogger : IArchServerModulePlugIn
+    public class PlugInLogger : IArchServerHTTPPlugIn
     {
         #region IArchServerPlugIn Members
 

@@ -17,7 +17,7 @@
       <FileName>IArchServerLogger.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="ArchBench.IArchServerModulePlugIn">
+  <Interface Name="ArchBench.IArchServerHTTPPlugIn">
     <Position X="1.25" Y="4.25" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
@@ -27,7 +27,7 @@
   <Interface Name="ArchBench.IArchServerPlugIn">
     <Position X="1.25" Y="0.5" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>IAAAAAAAACAgAQAAgAAAAAQAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>IAAAAAAAACAgAYAAgAAAAAQAAAAACAAAAIAAAAAAAAA=</HashCode>
       <FileName>IArchServerPlugIn.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>

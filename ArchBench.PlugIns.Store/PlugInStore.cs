@@ -7,7 +7,7 @@ using HttpServer.Sessions;
 
 namespace ArchBench.PlugIns.Store
 {
-    public class PlugInStore : IArchServerModulePlugIn
+    public class PlugInStore : IArchServerHTTPPlugIn
     {
         static Random rand = new Random();
 

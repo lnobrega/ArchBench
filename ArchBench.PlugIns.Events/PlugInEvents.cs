@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace ArchBench.PlugIns.Events
 {
-    public class PlugInEvents : IArchServerModulePlugIn
+    public class PlugInEvents : IArchServerHTTPPlugIn
     {
         private static int counter = 0;
 

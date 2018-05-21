@@ -5,7 +5,7 @@ using HttpServer.Sessions;
 
 namespace ArchBench.PlugIns.Counter
 {
-    public class PlugInCounter : IArchServerModulePlugIn
+    public class PlugInCounter : IArchServerHTTPPlugIn
     {
         public string Name => "ArchBench Server PlugIn Counter";
 

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace ArchBench.PlugIns.Hello
 {
-    public class Hello : IArchServerModulePlugIn
+    public class Hello : IArchServerHTTPPlugIn
     {
         public string Name => "Hello Module Plug In";
 
