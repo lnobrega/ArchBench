@@ -39,9 +39,8 @@ namespace ArchBench.PlugIns.Amazon
 
             WebClient client = new WebClient();
 
-            byte[] bytes = client.DownloadData( string.Format( 
-                "http://www.amazon.co.uk/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords={0}",
-                aRequest.QueryString["search"].Value ) );
+            byte[] bytes = client.DownloadData(
+                $"http://www.amazon.co.uk/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords={aRequest.QueryString["search"].Value}" );
 
             StreamWriter writer = new StreamWriter( aResponse.Body, client.Encoding );
             writer.Write( client.Encoding.GetString( bytes ) );
