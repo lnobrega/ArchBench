@@ -2,14 +2,6 @@
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="ArchBench.Server.ModulePlugIns">
     <Position X="0.5" Y="5.75" Width="3" />
-    <AssociationLine Name="Logger" Type="ArchBench.IArchServerLogger" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="2.188" Y="7.175" />
-        <Point X="2.188" Y="8.872" />
-        <Point X="8.75" Y="8.872" />
-        <Point X="8.75" Y="8.062" />
-      </Path>
-    </AssociationLine>
     <AssociationLine Name="PlugInsManager" Type="ArchBench.Server.PlugInsManager">
       <MemberNameLabel ManuallyPlaced="true">
         <Position X="-1.328" Y="0.227" />
@@ -17,44 +9,27 @@
     </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAIAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ModulePlugIns.cs</FileName>
+      <FileName>PlugIns\ModulePlugIns.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="Logger" />
       <Property Name="PlugInsManager" />
     </ShowAsAssociation>
     <Lollipop Position="1.929" />
   </Class>
   <Class Name="ArchBench.Server.PlugInsManager">
     <Position X="0.5" Y="1" Width="2" />
-    <AssociationLine Name="mHost" Type="ArchBench.IArchServerPlugInHost" ManuallyRouted="true">
-      <Path>
-        <Point X="1.5" Y="1" />
-        <Point X="1.5" Y="0.49" />
-        <Point X="8.75" Y="0.49" />
-        <Point X="8.75" Y="1" />
-      </Path>
-    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAABAACAAAAAAAAAAAAAAIAIAAAAAAAAAAgAAAE=</HashCode>
-      <FileName>PlugInsManager.cs</FileName>
+      <HashCode>AAAAAAABAACAAAAAAAAABAAAAIAIAAAAAAAAAAgAAAE=</HashCode>
+      <FileName>PlugIns\PlugInsManager.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Field Name="mHost" />
-    </ShowAsAssociation>
-    <ShowAsCollectionAssociation>
-      <Field Name="mPlugIns" />
-    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="ArchBench.Server.ModuleHello">
     <Position X="4" Y="5.75" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ModuleHello.cs</FileName>
+      <FileName>Modules\ModuleHello.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Field Name="mLogger" />
-    </ShowAsAssociation>
   </Class>
   <Class Name="ArchBench.Server.TextBoxLogger">
     <Position X="9.5" Y="3.5" Width="2.5" />
@@ -78,29 +53,5 @@
     <Position X="3" Y="4.5" Width="1.5" />
     <TypeIdentifier />
   </Class>
-  <Interface Name="ArchBench.IArchServerPlugIn">
-    <Position X="4.25" Y="1" Width="2" />
-    <TypeIdentifier />
-    <ShowAsAssociation>
-      <Property Name="Host" />
-    </ShowAsAssociation>
-  </Interface>
-  <Interface Name="ArchBench.IArchServerPlugInHost">
-    <Position X="7.75" Y="1" Width="2" />
-    <AssociationLine Name="Logger" Type="ArchBench.IArchServerLogger" FixedToPoint="true">
-      <Path>
-        <Point X="8.75" Y="1.868" />
-        <Point X="8.75" Y="7.5" />
-      </Path>
-    </AssociationLine>
-    <TypeIdentifier />
-    <ShowAsAssociation>
-      <Property Name="Logger" />
-    </ShowAsAssociation>
-  </Interface>
-  <Interface Name="ArchBench.IArchServerLogger" Collapsed="true">
-    <Position X="7.75" Y="7.5" Width="2" />
-    <TypeIdentifier />
-  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
