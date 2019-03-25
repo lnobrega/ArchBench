@@ -5,12 +5,3 @@ C:\Development\Academics\ArchBench\ArchBench.Core\bin\Debug\HttpServer.xml
 C:\Development\Academics\ArchBench\ArchBench.Core\obj\Debug\ArchBench.Core.csprojResolveAssemblyReference.cache
 C:\Development\Academics\ArchBench\ArchBench.Core\obj\Debug\ArchBench.Core.dll
 C:\Development\Academics\ArchBench\ArchBench.Core\obj\Debug\ArchBench.Core.pdb
-C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.Core\bin\Debug\ArchBench.Core.dll
-C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.Core\bin\Debug\ArchBench.Core.pdb
-C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.Core\bin\Debug\HttpServer.dll
-C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.Core\bin\Debug\HttpServer.xml
-C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.Core\obj\Debug\ArchBench.Core.csprojResolveAssemblyReference.cache
-C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.Core\obj\Debug\ArchBench.Core.csproj.CoreCompileInputs.cache
-C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.Core\obj\Debug\ArchBench.Core.csproj.CopyComplete
-C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.Core\obj\Debug\ArchBench.Core.dll
-C:\Users\leonel.nobrega\Source\Repos\ArchBench\ArchBench.Core\obj\Debug\ArchBench.Core.pdb
